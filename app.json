@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Pace Calculator",
+    "slug": "pace-calc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "pace-calc",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0077B6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.phungnlg.pacecalc"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0077B6",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.phungnlg.pacecalc"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
